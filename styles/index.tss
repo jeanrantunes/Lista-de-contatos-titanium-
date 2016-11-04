@@ -1,0 +1,30 @@
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+"#list": {
+	backgroundColor:"white"
+}
+".image": {
+	borderRadius: 50,
+	width:62,
+   	height:62,
+   	left: 20
+}
+".title": {
+	left: 100
+}
+".separator": {
+	backgroundColor: "#f3f3f3",
+	width: "96%",
+	height: 1,
+	bottom: 0
+}

@@ -1,0 +1,18 @@
+
+<Alloy>
+	<Collection src="contacts"/>
+	<Window class="container">
+		 <ListView id="list" defaultItemTemplate="contactsItem">
+		 	<Templates>
+		 		<ItemTemplate name="contactsItem" height="70">
+		            <ImageView bindId="image" class="image"/>
+		            <Label bindId="title" class="title text-and-image"/>
+		            <Label class="separator"></Label>
+		        </ItemTemplate>
+		 	</Templates>
+		 	<ListSection dataCollection="contacts">
+		 		<ListItem  template="contactsItem" title:text="{name}" image:image="{photo}"/>
+		 	</ListSection>
+        </ListView>
+	</Window>
+</Alloy>
